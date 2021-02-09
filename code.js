@@ -1,4 +1,4 @@
-var sub = prompt("What Is Your favourite subject maths or science ?","maths or science");
+/*var sub = prompt("What Is Your favourite subject maths or science ?","maths or science");
 
     while(sub=="maths" && sub=="science")
     {
@@ -18,22 +18,35 @@ var sub = prompt("What Is Your favourite subject maths or science ?","maths or s
         } else 
         {
             alert("Your favourite subject   " + sub + " is a nice!");
-        }
+        }*/
 
 
         //today work(part2)
-        var sub2 = prompt("What Is Your favourite subject maths or science ?","maths or science");
-    while(sub2 !== "maths" && sub2 !== "science")
+        //today work(function)
+
+    var sub3 = prompt("What Is Your favourite subject maths or science ?","maths or science");
+
+    function subject ()
     {
-        sub2 = prompt("What Is Your favourite subject maths or science ?","maths or science");
+        sub3 = prompt("Please enter maths or science ?","maths or science");
+    }
+
+    //var sub2 = prompt("What Is Your favourite subject maths or science ?","maths or science");
+   
+    while(sub3 !== "maths" && sub3 !== "science")
+    {
+        subject();
+
+        //sub2 = prompt("What Is Your favourite subject maths or science ?","maths or science");
+
     }
 
     var imageofsub="";
 
-    if(sub2=="maths")
+    if(sub3=="maths")
     {
         imageofsub='<img src ="imagee/maths.jpg"/>';
-    } else if (sub2=="science")
+    } else if (sub3=="science")
     {
         imageofsub='<img src ="imagee/science.jpg" />';
     }
@@ -47,6 +60,4 @@ var sub = prompt("What Is Your favourite subject maths or science ?","maths or s
 
     }
 
-        document.write(star);
-
-
+        document.write(star); 
