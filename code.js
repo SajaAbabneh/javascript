@@ -1,6 +1,6 @@
-/*var sub = prompt("What Is Your favourite subject maths or science ?","maths or science");
+var sub = prompt("What Is Your favourite subject maths or science ?","maths or science");
 
-    while(sub=="maths" && sub=="science")
+    while(sub !== "maths" && sub !== "science")
     {
         sub = prompt("What Is Your favourite subject maths or science ?","maths or science");
     }
@@ -18,7 +18,8 @@
         } else 
         {
             alert("Your favourite subject   " + sub + " is a nice!");
-        }*/
+        }
+        confirm("Press Ok to continue");
 
 
         //today work(part2)
